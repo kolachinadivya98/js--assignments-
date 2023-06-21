@@ -6,8 +6,8 @@ function calculateSum() {
   }
 
   function generateRandomNumbers() {
-    var num1 = Math.floor(Math.random() * 100) + 1; 
-    var num2 = Math.floor(Math.random() * 150) + 1;
+    var num1 = Math.floor(Math.random() * 10000) + 1; 
+    var num2 = Math.floor(Math.random() * 15000) + 1;
     document.getElementById("num1").value = num1;
     document.getElementById("num2").value = num2;
   }
