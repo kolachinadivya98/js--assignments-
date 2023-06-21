@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Number Addition</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <div class="container">
     <h1>Random Number Addition Calculator</h1>
   <label for="num1">Number 1:</label><br>
   <input type="text" id="num1">
   <br>
-  <label for="num2">Number 2:</label><br>
   <h3>+</h3>
+  <label for="num2">Number 2:</label><br>
   <input type="text" id="num2">
   <br><br>
   <button onclick="generateRandomNumbers()">Generate Random Numbers</button>
   <button onclick="calculateSum()">Calculate</button>
   <br>
   <p id="result"></p>
-
+  </div>
   <script src="./app.js"></script>
 </body>
 </html>
