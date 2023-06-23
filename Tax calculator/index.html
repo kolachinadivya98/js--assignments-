@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tax calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Calculator</h1>
+        <label for="name">Name</label><br>
+        <input type="text" id="name"><br><br>
+        <label for="salary">Salary</label><br>
+        <input type="text" id="salary">
+        <br><br>
+        <button onclick="taxCalculator()">taxCalculator</button>
+        <br><br>
+        <label for="deduction1">Deduction for 10% </label>
+        <input type="text" id="tenpercent">
+        <label for="deduction2">Deduction for 20%</label>
+        <input type="text" id="twentypercent">
+         <br><br>
+        <label for="total">Total</label>
+        <input type="text" id="totDeduc">
+    
+    <p id="noTax"></p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
