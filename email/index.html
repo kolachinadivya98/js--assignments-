@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form validation</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <form id="myForm">
+
+    <input type="text" id="userName"  placeholder="userName">
+    <span id ="userNameError" class="error"></span>
+
+    <br><br><br>
+    
+    <input type="text" id="email" placeholder="email">
+    <span id="emailError" class="error"></span>
+
+    <br><br><br>
+
+   
+    <input type="password" id="password" placeholder="password">
+    <span id="passwordError" class="error"></span>
+
+    <br><br><br>
+
+    <input type="text" id="mobileNo" placeholder="MobileNo">
+    <span id="mobileNoError" class="error"></span>
+
+    <br><br><br>
+
+
+
+    <button type="submit">Submit</button>
+  </form>
+<script src="app.js"></script>
+</body>
+</html>
