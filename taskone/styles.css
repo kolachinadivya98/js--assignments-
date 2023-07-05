@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid rgb(45, 41, 41,0,6);
+    text-align: center;
+    background-color: rgba(9, 8, 8, 0.2);
+}
+button{
+    background-color: tomato;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+}
+.error{
+    outline-color: red;
+
+
+}
+.success{
+    outline-color: green;
+}
