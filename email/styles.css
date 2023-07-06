@@ -8,10 +8,10 @@ body{
 .container {
     width: 45%;
     margin: 100px auto;
-    border: 3px solid black;
+    border: 3px solid rgb(221, 211, 211, 0.6);
     border-radius: 10px;
     padding: 20px;  
-    background-color: rgba(195, 182, 182, 0.02);
+    background-color: rgba(231, 228, 228, 0.02);
   }
   
   h1{
@@ -27,13 +27,18 @@ body{
   }
   
   button{
-    background-color : rgb(4, 0, 255);
+    background-color : rgb(197, 27, 203);
     color: white;
     padding: 16px 20px;
     border-radius: 10px;
+    width: 200px;
+
   }
   
-  
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
   
   .error {
       color: red;

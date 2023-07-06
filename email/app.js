@@ -56,19 +56,18 @@ if(validUser.test(userName)){
     }
     
     function validatePasswordInput(){
-        let password = document.getElementById("password");
+        let password = document.getElementById("password").value.trim();
 
        if(password == ""){
          let invalidpassword= document.querySelector("#passwordErrorr");
          invalidpassword.innerHTML ="Please enter your password";
         }  
        if(password !=""){
-       var validpassword =  /^[a-zA-Z0-9@_-]{8,20}$/
+       var validpassword =  /^[a-zA-Z0-9]{8,20}$/
        if(validpassword.test(password)){
      
         document.getElementById("password").classList.add("valid")
         document.getElementById('passwordError').innerText = `Valid Password`;
-    inputStatus = true;
         }else{
         document.getElementById("password").classList.add("invalid")
          document.getElementById('passwordError').innerText = 'Password must be alphanumeric (@,_ and - are also allowed)& must be 8-20 characters';
